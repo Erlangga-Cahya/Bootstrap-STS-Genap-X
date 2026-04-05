@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Product</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css">
+            <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox-plus-jquery.min.js"></script>
+            <link rel="stylesheet" href="Style.css">
+        </head>
+
+        <body>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark main-color">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <a class="navbar-brand me-auto" href="#">Avalonian</a>
+                        <ul class="navbar-nav">
+                            <li class="nav-item me-5">
+                            <a class="nav-link" aria-current="page" href="Frontend-Bootstrap.html">Home</a>
+                            </li>
+                            <li class="nav-item me-5">
+                            <a class="nav-link active" href="Product.html">Product</a>
+                            </li>
+                            <li class="nav-item me-5">
+                            <a class="nav-link" href="Promo.html">Promo</a>
+                            </li>
+                            <li class="nav-item me-5">
+                            <a class="nav-link" href="Cart.html"><i class="bi bi-cart"></i> Cart</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container-fluid banner align-items-center d-flex justify-content-center">
+            <div class="container">
+                <h1 class="text-light text-center display-5 mb-3">Welcome to Avalonian Bakery</h1>
+                <h2 class="text-light text-center display-6 mb-4">Lagi ingin kue apa?</h2>
+                <div class="col-md-8 offset-md-2">
+                    <div class="input-group input-group-lg mt-5">
+                        <select class="form-select" id="inputGroupSelect04">
+                            <option selected>Pilih Makanan</option>
+                            <option value="1">Pie</option>
+                            <option value="2">Cake</option>
+                            <option value="3">Cookies</option>
+                            <option value="4">Donut</option>
+                        </select>
+                            <div class="input-group-append">
+                                <button class="btn btn-lg btn-warning text-light" type="button">Telusuri</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section id="Product">
+            <div class="container-fluid py-5">
+            <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-lg-3 mb-5">
+                    <h4 class="mb-4">Category</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item active" aria-current="true">Menu</li>
+                        <li class="list-group-item">Pie</li>
+                        <li class="list-group-item">Cake</li>
+                        <li class="list-group-item">Cookies</li>
+                        <li class="list-group-item">Donut</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-8 col-lg-9">
+                    <h4 class="text-center mb-2">Semua Produk</h4>
+                    <div class="row">
+                        <div class="card h-100 m-3 p-0" style="width: 18rem;">
+                            <a href="Image/Image 9.jpg" data-lightbox="gallery">
+                                <img src="Image/Image 9.jpg" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-warning">Pink Strawberry Cake</h5>
+                                <p class="card-text">Kue strawberry dengan perpaduan strawberry dan pink cream yang dapat meningkatkan mood mu.</p>
+                                <h4 class="text-center text-success mb-3">Rp. 22.000</h4>
+
+                                <div class="dropdown text-center">
+                                    <button class="btn btn-outline-warning dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                                
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="Product/Detail 1.html">Lihat</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Beli</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card h-100 m-3 p-0" style="width: 18rem;">
+                            <a href="Image/Image 17.jpg" data-lightbox="gallery">
+                                <img src="Image/Image 17.jpg" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-warning">Choco Ice Cream cake</h5>
+                                <p class="card-text">Kue cokelat yang menggabungkan kelembutan cake cokelat dengan dinginnya es krim cokelat.</p>
+                                <h4 class="text-center text-success mb-3">Rp. 35.000</h4>
+                                
+                                <div class="dropdown text-center">
+                                    <button class="btn btn-outline-warning dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                                
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="Product/Detail 2.html">Lihat</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Beli</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card h-100 m-3 p-0" style="width: 18rem;">
+                            <a href="Image/Image 11.jpg" data-lightbox="gallery">
+                                <img src="Image/Image 11.jpg" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-warning">Chocoffee Cake</h5>
+                                <p class="card-text">Kue kopi perpaduan manisnya cokelat dan aroma kopi yang khas membuat kue ini terasa lembut.</p>
+                                <h4 class="text-center text-success mb-3">Rp. 31.000</h4>
+                                
+                                <div class="dropdown text-center">
+                                    <button class="btn btn-outline-warning dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                                
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="Product/Detail 3.html">Lihat</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Beli</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card h-100 m-3 p-0" style="width: 18rem;">
+                            <a href="Image/Image 10.jpg" data-lightbox="gallery">
+                                <img src="Image/Image 10.jpg" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-warning">Oreo Cupcake</h5>
+                                <p class="card-text">Kue mini yang memadukan cupcake cokelat dan vanila dengan rasa khas biskuit Oreo.</p>
+                                <h4 class="text-center text-success mb-3">Rp. 21.000</h4>
+                                
+                                <div class="dropdown text-center">
+                                    <button class="btn btn-outline-warning dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                                
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="Product/Detail 4.html">Lihat</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Beli</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card h-100 m-3 p-0" style="width: 18rem;">
+                            <a href="Image/Image 12.jpg" data-lightbox="gallery">
+                                <img src="Image/Image 12.jpg" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-warning">Syrup Cupcake</h5>
+                                <p class="card-text">Cupcake lembut yang diberi tambahan sirup untuk memberikan rasa dan kelembapan ekstra.</p>
+                                <h4 class="text-center text-success mb-3">Rp. 22.000</h4>
+                                
+                                <div class="dropdown text-center">
+                                    <button class="btn btn-outline-warning dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                                
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="Product/Detail 5.html">Lihat</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Beli</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card h-100 m-3 p-0" style="width: 18rem;">
+                            <a href="Image/Image 13.jpg" data-lightbox="gallery">
+                                <img src="Image/Image 13.jpg" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-warning">Berrownies Cupcake</h5>
+                                <p class="card-text">Cupcake dengan dasar brownies yang lembut dan fudgy, dipadukan dengan rasa segar dari buah beri.</p>
+                                <h4 class="text-center text-success mb-3">Rp. 23.000</h4>
+                                
+                                <div class="dropdown text-center">
+                                    <button class="btn btn-outline-warning dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                                
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="Product/Detail 6.html">Lihat</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Beli</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card h-100 m-3 p-0" style="width: 18rem;">
+                            <a href="Image/Image 14.jpg" data-lightbox="gallery">
+                                <img src="Image/Image 14.jpg" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-warning">Creampie Cake</h5>
+                                <p class="card-text">Kue lembut yang diisi dengan krim manis dan lembut di bagian tengahnya dan strawberry.</p>
+                                <h4 class="text-center text-success mb-3">Rp. 29.000</h4>
+                                
+                                <div class="dropdown text-center">
+                                    <button class="btn btn-outline-warning dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                                
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="Product/Detail 7.html">Lihat</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Beli</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card h-100 m-3 p-0" style="width: 18rem;">
+                            <a href="Image/Image 15.jpg" data-lightbox="gallery">
+                                <img src="Image/Image 15.jpg" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-warning">Orange Choco Cake</h5>
+                                <p class="card-text">Kue yang memadukan rasa cokelat yang kaya dengan aroma dan rasa segar dari buah jeruk.</p>
+                                <h4 class="text-center text-success mb-3">Rp. 27.000</h4>
+                                
+                                <div class="dropdown text-center">
+                                    <button class="btn btn-outline-warning dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                                
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="Product/Detail 8.html">Lihat</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Beli</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card h-100 m-3 p-0" style="width: 18rem;">
+                            <a href="Image/Image 16.jpg" data-lightbox="gallery">
+                                <img src="Image/Image 16.jpg" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-warning">Lemon Syrup Cake</h5>
+                                <p class="card-text">Kue lembut dengan rasa segar dari lemon yang khas dan disiram dengan sirup lemon.</p>
+                                <h4 class="text-center text-success mb-3">Rp. 25.000</h4>
+                                
+                                <div class="dropdown text-center">
+                                    <button class="btn btn-outline-warning dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                                
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="Product/Detail 9.html">Lihat</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Beli</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center mt-4 text-center">
+                        <li class="page-item">
+                        <a class="page-link" href="#">Previous</a>
+                        </li>
+
+                        <li class="page-item">
+                        <a class="page-link" href="#">1</a>
+                        </li>
+
+                        <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                        </li>
+
+                        <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                        </li>
+
+                        <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+            </div>
+            </div>
+        </section>
+
+        <div class="container-fluid py-5 footer">
+            <div class="container">
+
+            
+                <h5 class="text-center text-light mb-3">Ikuti Kami</h5>
+
+                <div class="d-flex justify-content-center mb-5" style="gap: 70px">
+                    <a href="https://facebook.com/username" target="_blank" class="social-icon">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="https://instagram.com/username" target="_blank" class="social-icon">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/username" target="_blank" class="social-icon">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
+                    <a href="https://youtube.com/@username" target="_blank" class="social-icon">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                </div>
+
+                <!-- Subscribe -->
+                <h5 class="text-center text-light mb-1">Subscribe</h5>
+                <p class="text-center text-white mb-3">Supaya tidak ketinggalan Promo menarik!</p>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Ketikkan Email">
+                            <button class="btn btn-warning text-light">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <footer class="bg-dark text-light py-4">
+            <div class="container">
+
+                <div class="row text-center text-md-start">
+
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <h5 class="fw-bold">Avalonian</h5>
+                        <p class="text-text-white small">Toko kue enak, nyaman, dan tentunya terbaik di kota Mojokerto.</p>
+                    </div>
+
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <h6 class="fw-bold mb-3">Navigasi</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="Frontend-Bootstrap.html" class="text-white text-decoration-none">Home</a></li>
+                            <li><a href="Product.html" class="text-white text-decoration-none">Product</a></li>
+                            <li><a href="Promo.html" class="text-white text-decoration-none">Promo</a></li>
+                            <li><a href="Cart.html" class="text-white text-decoration-none">Cart</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <h6 class="fw-bold mb-3">Kontak</h6>
+                        <ul class="list-unstyled text-white small">
+                            <li class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i>Jl. Cancer No. 11, Mojokerto</li>
+                            <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+62 851 6763 0990</li>
+                            <li><i class="bi bi-envelope-fill me-2"></i>avalonian@email.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="border-secondary mt-4 mb-3">
+                <p class="text-center text-white small mb-0">
+                    &copy; 2026 Avalonian. All Rights Reserved.
+                </p>
+            </div>
+        </footer>
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+            <script src="/dist/js/lightbox-plus-jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        </body>
+    </html>
